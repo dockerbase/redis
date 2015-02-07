@@ -11,3 +11,5 @@ RUN     /dockerbase/redis.sh
 
 RUN     mkdir -p /etc/service/redis
 ADD     build/runit/redis /etc/service/redis/run
+
+EXPOSE  6379
